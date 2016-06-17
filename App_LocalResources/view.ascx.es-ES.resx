@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AuditChecks.Text" lastModified="2015-12-27 03:58:41">
+    <value xml:space="preserve">Auditoría</value>
+  </data>
+  <data name="AuditExplanation.Text" lastModified="2015-12-27 03:58:41">
+    <value xml:space="preserve">Aquí puede ver los resultados de la comprobación automática de las recomendaciones de seguridad.</value>
+  </data>
+  <data name="Authorized.Header" lastModified="2015-12-27 03:58:41">
+    <value xml:space="preserve">Autorizado</value>
+  </data>
+  <data name="CheckBiographyFailure.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">El campo permite texto enriquecido. Los spammers podrían poner enlaces a sus sitios web en su campo de biografía.</value>
+  </data>
+  <data name="CheckBiographyName.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Comprueba si el perfil público permite texto enriquecido.</value>
+  </data>
+  <data name="CheckBiographyReason.Text" lastModified="2015-12-27 05:03:22">
+    <value xml:space="preserve">El campo de biografía es un objetivo frecuente para los spammers puesto que pueden añadir enlaces o html. A partir de DNN 7.2.0 este campo se ha cambiado a un campo de texto que elimina este riesgo.</value>
+  </data>
+  <data name="CheckBiographySuccess.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">El campo está definido como un campo de texto.</value>
+  </data>
+  <data name="CheckDebugFailure.Text" lastModified="2015-12-27 05:03:22">
+    <value xml:space="preserve">depuración está activado. Debería modificar el archivo web.config y establecer este valor a 'false'.</value>
+  </data>
+  <data name="CheckDebugName.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Comprobar estado de depuración.</value>
+  </data>
+  <data name="CheckDebugReason.Text" lastModified="2015-12-27 05:03:22">
+    <value xml:space="preserve">Si el atributo 'depuración (debug)' está activado, hay un impacto en el rendimiento y se pueden mostrar detalles de las incidencias de seguridad útiles para los hackers.</value>
+  </data>
+  <data name="CheckDebugSuccess.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Modo depuración desactivado. Esta configuración depende del valor debug en el archivo web.config.</value>
+  </data>
+  <data name="CheckPurpose.Header" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Objetivo de la comprobación.</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserFailure.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Se ha encontrado uno o más súperusuarios que no se han utilizado (sin actividad) en los últimos seis meses. Elimine los usuarios que ya no utilice.</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserName.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Comprueba si hay súperusuarios que no se utilicen.</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserReason.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Los súperusuarios son las cuentas más potentes en DNN. Una buena práctica es limitar el número de súperusuarios disponibles.</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserSuccess.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Todos los súperusuarios usan regularmente el sistema.</value>
+  </data>
+  <data name="CheckSiteRegistrationFailure.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Uno o más portales permiten el registro público de usuarios.</value>
+  </data>
+  <data name="CheckSiteRegistrationName.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Comprueba si los sitios utilizan registro público de usuarios.</value>
+  </data>
+  <data name="CheckSiteRegistrationReason.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Los sitios con registro público de usuarios son el objetivo principal de los spammers.</value>
+  </data>
+  <data name="CheckSiteRegistrationSuccess.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Ningún portal utiliza registro público de usuarios.</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordFailure.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Al menos un súperusuario tiene una contraseña que no se ha cambiado en los últimos 6 meses.</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordName.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Comprueba si los súperusuarios actualizan la contraseña regularmente.</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordReason.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Los súperusuarios son las cuentas más potentes en DNN. Una buena práctica es actulizar regularmente la contraseña de este tipo de cuentas.</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordSuccess.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Todos los súperusuarios han actualizado su contraseña en los últimos 6 meses.</value>
+  </data>
+  <data name="CheckTracing.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Tracing está activado. Debería modificar el archivo web.config y establecer este valor a 'false'.</value>
+  </data>
+  <data name="CheckTracingFailure.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Tracing está activado. Esto permite a hackers potenciales ver la actividad de sitio web.</value>
+  </data>
+  <data name="CheckTracingName.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Verifica si el 'tracing' asp.net está activado.</value>
+  </data>
+  <data name="CheckTracingReason.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Si el atributo 'tracing' está activado, los hackers potenciales pueden ver la actividad del sitio web.</value>
+  </data>
+  <data name="CheckTracingSuccess.Text" lastModified="2015-12-27 06:12:09">
+    <value xml:space="preserve">Tracing no está activado.</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsFailure.Text" lastModified="2015-12-27 07:16:15">
+    <value xml:space="preserve">Se han encontrado archivos con extensión 'asp' o 'php'. Estos archivos pueden ser legítimos pero a veces esto indica que el sitio web ha sido hackeado y estos archivos son herramientas. Revise atentamente estos archivos para verificar si son legítimos.</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsName.Text" lastModified="2015-12-27 07:16:15">
+    <value xml:space="preserve">Comprueba si hay archivos asp o php.</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsReason.Text" lastModified="2015-12-27 07:16:15">
+    <value xml:space="preserve">DNN es una aplicación web ASP.NET. En condiciones normales otras extensiones de aplicación como .asp o .php no se deberían encontrar presentes.</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsSuccess.Text" lastModified="2015-12-27 07:16:15">
+    <value xml:space="preserve">No se han encontrado archivos con extensiones peligrosas.</value>
+  </data>
+  <data name="CheckViewstatemacFailure.Text" lastModified="2016-03-17 07:42:56">
+    <value xml:space="preserve">La validación "viewstatemac" no está activada.</value>
+  </data>
+  <data name="CheckViewstatemacName.Text" lastModified="2015-12-27 07:16:15">
+    <value xml:space="preserve">Verificar si el Viewstate está protegido.</value>
+  </data>
+  <data name="CheckViewstatemacReason.Text" lastModified="2015-12-27 08:20:06">
+    <value xml:space="preserve">Un Viewstate MAC es una versión encriptada de la variable oculta donde se guarda el estado de la página cuando ésta se envia al navegador. Si esta propiedad esta activada, el campo encriptado se verifica para comprobar que el estado no se haya modificado en el cliente.</value>
+  </data>
+  <data name="CheckViewstatemacSuccess.Text" lastModified="2015-12-27 08:20:06">
+    <value xml:space="preserve">El Viewstate está protegido con el uso de MAC.</value>
+  </data>
+  <data name="cmdCheck.Text" lastModified="2015-12-27 08:20:06">
+    <value xml:space="preserve">Comprobar</value>
+  </data>
+  <data name="cmdSearch.Text" lastModified="2015-12-27 08:20:06">
+    <value xml:space="preserve">Buscar</value>
+  </data>
+  <data name="CreatedDate.Header" lastModified="2015-12-27 08:20:06">
+    <value xml:space="preserve">Fecha de creación</value>
+  </data>
+  <data name="DisplayName.Header" lastModified="2015-12-27 08:20:06">
+    <value xml:space="preserve">Nombre completo</value>
+  </data>
+  <data name="Email.Header" lastModified="2015-12-27 08:20:06">
+    <value xml:space="preserve">Correo electrónico</value>
+  </data>
+  <data name="FirstName.Header" lastModified="2015-12-27 08:20:06">
+    <value xml:space="preserve">Nombre</value>
+  </data>
+  <data name="LastActivityDate.Header" lastModified="2015-12-27 08:20:06">
+    <value xml:space="preserve">Fecha última actividad</value>
+  </data>
+  <data name="LastLogin.Header" lastModified="2015-12-27 08:20:06">
+    <value xml:space="preserve">Último inicio de sesión</value>
+  </data>
+  <data name="LastName.Header" lastModified="2015-12-27 08:20:06">
+    <value xml:space="preserve">Apellidos</value>
+  </data>
+  <data name="NoDatabaseResults.Text" lastModified="2015-12-27 08:20:06">
+    <value xml:space="preserve">El texto no se ha encontrado en la base de datos.</value>
+  </data>
+  <data name="NoFileResults.Text" lastModified="2015-12-27 08:20:06">
+    <value xml:space="preserve">El texto no se ha encontrado en ningún archivo.</value>
+  </data>
+  <data name="plSearchTerm.Text" lastModified="2015-12-27 08:20:06">
+    <value xml:space="preserve">Buscar texto</value>
+  </data>
+  <data name="Result.Header" lastModified="2015-12-27 08:20:06">
+    <value xml:space="preserve">Resultado</value>
+  </data>
+  <data name="ScannerChecks.Text" lastModified="2015-12-27 09:22:39">
+    <value xml:space="preserve">Búsquedas de seguridad</value>
+  </data>
+  <data name="ScannerExplanation.Text" lastModified="2015-12-27 09:22:39">
+    <value xml:space="preserve">Esta opción le permite buscar en el sistema de archivos y la base de datos cualquier texto. Esto puede ser útil si detecta que el sitio está mostrando contenidos no deseados y quiere localizar donde se encuentran.</value>
+  </data>
+  <data name="SearchTermRequired.Text" lastModified="2015-12-27 09:22:39">
+    <value xml:space="preserve">Tiene que proporcionar el texto de búsqueda.</value>
+  </data>
+  <data name="Severity.Header" lastModified="2015-12-27 09:22:39">
+    <value xml:space="preserve">Gravedad</value>
+  </data>
+  <data name="SuperuserActivity.Text" lastModified="2015-12-27 09:22:39">
+    <value xml:space="preserve">Actividad de súperusuarios</value>
+  </data>
+  <data name="Username.Header" lastModified="2015-12-27 09:22:39">
+    <value xml:space="preserve">Nombre de usuario</value>
+  </data>
+  <data name="CheckAllowableFileExtensionsFailure.Text">
+    <value>Los archivos aspx, asp o php están incluidos entre las extensiones autorizadas. Esto permitirá a hackers la carga de código en el web. Elimine estas extensiones en Sistema &gt; Configuración del sistema &gt; Otras configuraciones &gt; Extensiones de archivos permitidas</value>
+  </data>
+  <data name="CheckAllowableFileExtensionsName.Text">
+    <value>Compruebe si está permitida la carga de archivos con extensiones potencialmente dañinas</value>
+  </data>
+  <data name="CheckAllowableFileExtensionsReason.Text">
+    <value>Los archivos aspx, asp o php están incluidos entre las extensiones autorizadas. Esto permitirá a hackers la carga de código en el web. Elimine estas extensiones en Sistema &gt; Configuración del sistema &gt; Otras configuraciones &gt; Extensiones de archivos permitidas</value>
+  </data>
+  <data name="CheckAllowableFileExtensionsSuccess.Text">
+    <value>Las extensiones de archivos permitidas están correctamente configuradas.</value>
+  </data>
+  <data name="CheckDefaultPageFailure.Text">
+    <value>La(s) página(s) predeterminada(s) ha(n) sido modificada(s). Le recomendamos que analice cuidadosamente estos archivos, que puede haber sido modificados por un hacker y contener código maligno. Lo mejor es comparar estos archivos con los de la instalación estándar de su producto. Asegúrese de que la versión DNN o Evoq de su sitio coincide con la que usará para la comparación. Puede eliminar el código maligno o restaurar estos archivos desde la instalación estándar.</value>
+  </data>
+  <data name="CheckDefaultPageName.Text">
+    <value>Comprueba si los archivos default.aspx o default.aspx.cs han sido modificados</value>
+  </data>
+  <data name="CheckDefaultPageReason.Text">
+    <value>DNN usa default.aspx para cargar todo, así que cualquier solicitud carga este archivo al navegar en el sitio web. Modificar este archivo puede implicar un gran riesgo.</value>
+  </data>
+  <data name="CheckDefaultPageSuccess.Text">
+    <value>Los archivos default.aspx y default.aspx.cs no han sido modificados.</value>
+  </data>
+  <data name="CheckDiskAccessFailure.Text">
+    <value>Los hackers podrían tener acceso a discos/carpetas desde fuera del sitio web</value>
+  </data>
+  <data name="CheckDiskAccessName.Text">
+    <value>Comprueba permisos adicionales para discos/carpetas desde fuera de la carpeta del sitio web</value>
+  </data>
+  <data name="CheckDiskAccessReason.Text">
+    <value>El usuario bajo el que funciona su sitio web tiene acceso a discos y carpetas fuera de la ubicación de la aplicación web. Un hacker podría acceder a estos archivos y leerlos y/o modificarlos.</value>
+  </data>
+  <data name="CheckDiskAccessSuccess.Text">
+    <value>Los hackers no pueden accceder a discos/carpetas desde fuera del sitio web</value>
+  </data>
+  <data name="CheckFileExists.Error">
+    <value>La cuenta SQL Server actual puede ejecutar xp_fileexist para detectar la existencia de archivos en el servidor.</value>
+  </data>
+  <data name="CheckModuleHeaderAndFooterFailure.Text">
+    <value>Hay módulos en su sistema que tienen valores en el encabezado y pie; revíselos para asegurarse de que no hay código de suplantación (phishing).</value>
+  </data>
+  <data name="CheckModuleHeaderAndFooterName.Text">
+    <value>Comprueba la configuración de encabezado y pie en módulos</value>
+  </data>
+  <data name="CheckModuleHeaderAndFooterReason.Text">
+    <value>Los hackers pueden usar el encabezado o pie de ls módulos para inyectar contenido demodule's header or footer settings to inject content for phishing attacks.</value>
+  </data>
+  <data name="CheckModuleHeaderAndFooterSuccess.Text">
+    <value>No hay módulos con valores configurados en encabezado o pie.</value>
+  </data>
+  <data name="CheckPasswordFormatFailure.Text">
+    <value>La configuración passwordFormat no está establecida como Hashed en web.config - edite web.config y configúrela como Hashed (o use el gestor de configuración del sistema)</value>
+  </data>
+  <data name="CheckPasswordFormatName.Text">
+    <value>Comprueba la configuración de formato de contraseña</value>
+  </data>
+  <data name="CheckPasswordFormatReason.Text">
+    <value>Si el valor es Clear o Encrypters, un hacker puede recuperar la contraseña desde la base de datos.</value>
+  </data>
+  <data name="CheckPasswordFormatSuccess.Text">
+    <value>passwordFormat está configurado como Hashed en web.config</value>
+  </data>
+  <data name="CheckSqlRiskFailure.Text">
+    <value>La conexión SQL actual puede ejecutar órdenes potencialmente peligrosas en su servidor SQL Server.</value>
+  </data>
+  <data name="CheckSqlRiskName.Text">
+    <value>Comprueba los permisos de la cuenta actual de SQL</value>
+  </data>
+  <data name="CheckSqlRiskReason.Text">
+    <value>Si no se configura bien la cuenta SQL Server, puede generar riesgo y los hackers podrían acceder al servidor mediante un script.</value>
+  </data>
+  <data name="CheckSqlRiskSuccess.Text">
+    <value>La cuenta SQL Server está correctamente configurada.</value>
+  </data>
+  <data name="cmdModifiedFiles.Text">
+    <value>Encuentra archivos modificados recientemente</value>
+  </data>
+  <data name="ExecuteCommand.Error">
+    <value>La cuenta SQL Server actual puede ejecutar xp_cmdshell, lo que lanzará una línea de comandos en el sistema SQL Server.</value>
+  </data>
+  <data name="Filename.Header">
+    <value>Nombre de archivo</value>
+  </data>
+  <data name="GetFolderTree.Error">
+    <value>La cuenta SQL Server actual puede ejecutar xp_dirtree, lo que le permite ver la estructura de carpetas del servidor.</value>
+  </data>
+  <data name="HighRiskFiles.Text">
+    <value>Archivos de riesgo alto</value>
+  </data>
+  <data name="HostSettings.Text">
+    <value>Configuración de sistema</value>
+  </data>
+  <data name="LastModifiedDate.Header">
+    <value>Fecha última modificación</value>
+  </data>
+  <data name="LowRiskFiles.Text">
+    <value>Archivos de riesgo bajo</value>
+  </data>
+  <data name="ModifiedFiles.Text">
+    <value>Archivos modificados recientemente</value>
+  </data>
+  <data name="ModifiedFilesExplaination.Text">
+    <value />
+  </data>
+  <data name="ModifiedFilesLoadWarning.Text">
+    <value>Esta herramienta enumerará todos los archivos en su sistema para mostrar los cambiados recientemente. Puede tardar un buen rato en un sitio con muchos archivos.</value>
+  </data>
+  <data name="ModifiedSettings.Text">
+    <value>Configuración modificada recientemente</value>
+  </data>
+  <data name="ModifiedSettingsExplaination.Text">
+    <value />
+  </data>
+  <data name="ModuleSettings.Text">
+    <value>Configuración de módulo</value>
+  </data>
+  <data name="PortalSettings.Text">
+    <value>Configuración del sitio web</value>
+  </data>
+  <data name="RegRead.Error">
+    <value>La cuenta SQL Server actual puede leer valores de registro. Debe comprobar los permisos de xp_regread, xp_regwrite, xp_regenumkeys, xp_regenumvalues, xp_regdeletekey, xp_regdeletekey, xp_regdeletevalue, xp_instance_regread, xp_instance_regwrite, xp_instance_regenumkeys, xp_instance_regenumvalues, xp_instance_regdeletekey, xp_instance_regdeletekey, xp_instance_regdeletevalue stored procedures.</value>
+  </data>
+  <data name="SuperUserActivityExplaination.Text">
+    <value>A continuación, las actividades de súperusuarios. Busque actividades sospechosas aquí. Preste mucha atención a las fechas de creación y último inicio de sesión de las cuentas. </value>
+  </data>
+  <data name="SysAdmin.Error">
+    <value>La cuenta actual de SQL Server es 'sysadmin'.</value>
+  </data>
+  <data name="TabSettings.Text">
+    <value>Configuración de página</value>
+  </data>
+</root>
